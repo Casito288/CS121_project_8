@@ -1,6 +1,6 @@
 #CS121 PROJECT 8
 
-##Mermaid Live Diagram
+## Mermaid Live Diagram
 ```
 classDiagram
 
@@ -142,7 +142,7 @@ print the month day and year of the initialized values
 
 ```
 
-##Main
+## Main
 ```
 create an empty vector of Student pointers
 load students from the file
@@ -154,7 +154,7 @@ delete all students
 exit
 ```
 
-##Main::menu()
+## Main::menu()
 ```
 display the menu options
 ask the user to choose an option
@@ -162,7 +162,7 @@ read the choice as a string
 return choice
 ```
 
-##Main::findStudent(students)
+## Main::findStudent(students)
 ```
 ask the user to enter a last name
 loop through each student in the vector
@@ -171,19 +171,19 @@ check if the last name is the users string
 if no match print the the all of student data
 ```
 
-##Main::showStudentNames(students)
+## Main::showStudentNames(students)
 ```
 loop throgh every student pointer in the vector
 print student name
 ```
 
-##Main::printStudents(students)
+## Main::printStudents(students)
 ```
 loop through every student pointer in vector
 call all students data function
 ```
 
-##Main::loadStudents(students)
+## Main::loadStudents(students)
 ```
 open and read the csv file
 while not the end of the file
